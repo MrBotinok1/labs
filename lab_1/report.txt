@@ -1,0 +1,6 @@
+StarCraft server report
+
+Players: 5
+Bans: 1
+Transactions: 3
+Top item: emeralds
