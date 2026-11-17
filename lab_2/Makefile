@@ -8,9 +8,9 @@ DIRS := $(sort $(dir $(OBJS) build/genmul))
 
 .PHONY: all clean test
 
-all: build/calc
+all: build/prog
 
-build/calc: $(OBJS)
+build/prog: $(OBJS)
 	$(CC) $(CFLAGS) $^ -o $@
 
 build/%.o: src/%.c | $(DIRS)
